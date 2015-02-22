@@ -1,0 +1,31 @@
+body {
+  font-family: 'Ubuntu', helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  background: #F6FBFF;
+}
+small {
+  font-weight: 300;
+}
+div {
+  width: 72%;
+  max-width: 600px;
+  margin: 50px auto;
+  background: #EAEEF4;
+  padding: 30px 40px 44px;
+}
+h1 {
+  margin-top: 0;
+}
+a {
+  color: #5579B0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+@media screen and (min-width: 640px) {
+  div {
+    margin-top: 100px;
+  }
+}
